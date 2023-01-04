@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(235, 233, 233);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;   
+    font-family: 'Roboto', sans-serif;
+    
+  }
+
+footer > span > a{
+    text-decoration: none;
+    color: rgb(3, 80, 163);
+    
+}
+
+.app{
+    width: 20rem;
+    height: 25rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.logo-title{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+button {
+    margin-top: 1rem;
+    width: 5rem;
+    height: 2.5rem;
+    background-color: rgb(3, 80, 163);
+    color: white;
+    border-radius: 0.6rem;
+    box-shadow: none;
+    border-width: 0px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder
+}
